@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js" defer></script> -->
+    <script src="updateQuote.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">Test Your Typing Skills</div>
+
+        <div class="header">
+            <div class="cpm">
+                <div class="text-heading">CPM</div>
+                <div class="curr_cpm">100</div>
+            </div>
+
+            <div class="wpm">
+                <div class="text-heading">WPM</div>
+                <div class="curr_wpm">100</div>
+            </div>
+
+            <div class="accuracy">
+                <div class="text-heading">Accuracy</div>
+                <div class="curr_accuracy">100%</div>
+            </div>
+
+            <div class="time">
+                <div class="text-heading">Time</div>
+                <div class="curr_time">60</div>
+            </div>
+
+            <div class="error">
+                <div class="text-heading">Errors</div>
+                <div class="curr_error">0</div>
+            </div>
+            
+        </div>
+
+        <div class="quotes">
+            Click on the area below to start the game
+        </div>
+
+        <!-- <textarea class="input_word" 
+            placeholder="start typing here..." 
+            oninput="currentText()" 
+            onfocus="startGame()">
+        </textarea> -->
+
+        <!-- Input the word -->
+        <!-- <button class="restart-btn"
+            onclick="resetValues()">
+            Restart
+        </button> -->
+
+        <h2 id="msg"></h2>
+        
+        <textarea class="input_word" placeholder="start typing here..."></textarea>
+
+        <button class="restart-btn">
+        Start</button>
+    </div>
+    </div>
+</body>
+</html>

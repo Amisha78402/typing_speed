@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+
+<html>
+
+      <head>
+     
+             <title>demo table</title>
+
+
+
+      </head>
+      <body>
+             
+
+
+             <table border="3" width="100%">
+                   <tr>
+                         <td><img src="gwplogo.jpg"</td>
+                         <td><h1 align="center">WELCOME TO GOVERNMENT POLYTECHNIC,PATNA</h1></td>
+                         <td><img src="gwplogo.jpg"</td>
+                   </tr>
+
+      </table>
+     <table border="3" width="100%">
+          <tr>
+          
+ 
+
+          <td>home page</td>
+          <td>about us</td>
+          <td>studentzone</td>
+          <td>gallery</td>
+          <td>enquiry</td>
+         <td>contact us</td>
+          <td>FAQ</td>
+
+     <tr>
+     
+      </table>
+
+       <table border="3" width="100%">
+           <tr>
+      
+
+         <td rowspan="2"><img src="clgcampus.jpg"/></td>
+        
+        <td colspan="2" align="top">latest news</td>
+    <tr>
+      
+    
+  </table>
+
+      <table border="1" width="100%">
+      <tr>
+
+        <td>important link</td>
+       <td>design and developed by:</td>
+       <td>contact address:</td>
+    <tr>
+   </table>
+
+     </body>
+</html>
+        
+
+     
+        
+
+      

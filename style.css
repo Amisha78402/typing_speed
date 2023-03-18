@@ -1,0 +1,87 @@
+body{  
+    background-color: rgb(221, 203, 206);
+        /* background-image: url("typ_img.jpg"); */
+        /* background-repeat:inherit; */
+        /* background-size: cover; */
+        /* display: flex; */
+        text-align: center;
+        color: black;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+    }
+    .heading{
+        margin-bottom: 20px;
+        font-size: 3rem;
+        color: black;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        /* background-color: white;
+        border:2px ;
+        font-weight: 600;
+        margin: 3rem;
+        padding: 1rem;
+        margin-bottom: 60px; */
+    }
+    .time,.error,.accuracy,.cpm,.wpm{
+        background-color: rgb(244, 192, 174);
+        height: 62px;
+        width: 82px;
+        margin: 10px;
+        padding:13px;
+        border-radius: 15%;
+        box-shadow: black 5px 8px 5px;
+    }
+    .cpm ,.wpm{
+        display: none;
+    }
+    .text-heading{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+    
+    .curr_cpm,.curr_wpm ,.curr_accuracy,.curr_time,.curr_error{
+        /* height: 60px;
+        width: 70px; */
+        font-size: 2.3rem;
+        font-weight: 600;
+        /* text-align: center; */
+        /* display: flex; */
+    }
+    .quotes{
+        /* display: flex; */
+        background-color: rgb(244, 192, 174);
+        /* margin-bottom: 50px; */
+        margin: 10px;
+        padding: 15px;
+        font-size: 1.5rem;
+        box-shadow: black 5px 8px 5px;
+        text-align: center;
+    }
+    .input_word{
+        background-color: rgb(206, 214, 215);
+        height: 40px;
+        width: 40%;
+        margin: 15px;
+        padding: 13px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        border: 0px;
+        box-shadow:black 5px 8px 5px;
+    }
+    .restart-btn{
+        /* display: none; */
+        background-color: rgb(234, 68, 229);
+        box-shadow: black 5px 8px 5px;
+        font-size: 1.3rem;
+        padding: 10px;
+        margin: 85px; 
+        border: 0px;
+    }
+    
